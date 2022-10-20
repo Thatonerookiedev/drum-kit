@@ -1,0 +1,212 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100;
+    margin: 0;
+    padding: 0;
+    /*-------------------*/
+    background-color: grey;
+    font-family: Silkscreen-Bold;
+}
+
+
+/*-------------------------------------*/
+
+
+/*----------Bass Drum------------------*/
+
+#Bass-drum-div {
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    top: 25rem;
+    left: 33rem;
+}
+
+#Bass-drum {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 9rem;
+    border: 5px solid black;
+    background-color: whitesmoke;
+    align-content: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.max {
+    position: absolute;
+    top: -5rem;
+    left: -5rem;
+}
+
+.sym {
+    width: 15rem;
+    height: 15rem;
+    position: absolute;
+    top: 24rem;
+    left: 50rem;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-image: url(./inst/sym.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.tan {
+    width: 10rem;
+    height: 15rem;
+    border-radius: 50%;
+    border: 5px dashed black;
+    position: absolute;
+    font-family: Aboreto-Regular;
+}
+
+
+/*----------------------------------------*/
+
+.hig-tom-div {
+    width: 13rem;
+    top: 7rem;
+    left: 43rem;
+    background-color: whitesmoke;
+}
+
+.mid-tom-div {
+    width: 13rem;
+    top: 7rem;
+    left: 28rem;
+    background-color: whitesmoke;
+}
+
+.snare-drum-button {
+    width: 14rem;
+    top: 40rem;
+    left: 28rem;
+    background-color: whitesmoke;
+}
+
+.floor-tom-div {
+    width: 13rem;
+    top: 40rem;
+    left: 43rem;
+    background-color: whitesmoke;
+}
+
+.hi-hat {
+    top: 25rem;
+    left: 16rem;
+    border: solid black 5px;
+    background-image: url(./inst/sym.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15rem;
+}
+
+button:hover {
+    border-color: gold;
+    cursor: pointer;
+}
+
+
+/*-------------------------------------------*/
+
+
+/* .sym {
+    background-image: url(./inst/sym.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+} */
+
+
+/*-------------------------------------*/
+
+
+/*------------hovers-------------*/
+
+#Bass-drum:hover {
+    border-color: yellow;
+    cursor: pointer;
+}
+
+.sym:hover {
+    border-color: gold;
+}
+
+
+/*------------------------------------------*/
+
+
+/*---------------media screens-----------------*/
+
+@media screen and (max-width:800px) {
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #Bass-drum-div {
+        top: 25rem;
+        left: 14rem;
+    }
+    .sym {
+        top: 25rem;
+        left: 28rem;
+        z-index: 1;
+    }
+    .hig-tom-div {
+        top: 11rem;
+        left: 25rem;
+    }
+    .mid-tom-div {
+        top: 11rem;
+        left: 6rem;
+    }
+    .snare-drum-button {
+        top: 40rem;
+        left: 6rem;
+    }
+    .floor-tom-div {
+        top: 40rem;
+        left: 25rem;
+    }
+    .hi-hat {
+        top: 25rem;
+        left: 0;
+    }
+}
+
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
+
+
+/*------------font-faces------------------------*/
+
+@font-face {
+    font-family: Aboreto-Regular;
+    src: url(./Aboreto-Regular.ttf);
+}
+
+@font-face {
+    src: url(./Silkscreen-Bold.ttf);
+    font-family: Silkscreen-Bold;
+}
+
+
+/*------------------------------------------*/
+
+
+/*------------------------------------------*/
